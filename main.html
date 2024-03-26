@@ -11,15 +11,6 @@
     a{
         text-decoration:none;
     } 
-    .fixed-top {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      height:60px;
-      background-color: #f8f9fa; /* Change this to desired background color */
-      /* padding: 1px 0; Adjust padding as needed */
-      z-index: 999; /* Ensure it's above other content */
-    } 
     #d
     {
         font-size:large;
@@ -53,16 +44,34 @@
     {
         color:green;
     }
-    </style>
+    </style>  
 </head>
-<body>
-        <div class="fixed-top" style="background-color:#f7e8d3 " >
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+        <!-- <div class="fixed-top" style="background-color:#f7e8d3;width:100%;max-width:100% " >
             <a href="#home" style="padding-right:800px;"><img src="https://i.pinimg.com/736x/8d/3b/b6/8d3bb614e97605ed45518a2156b342a9.jpg" width="60px"/></a>
             <a href="#home" id="d" >Home</a>
             <a href="#aboutus" id="d1">About us</a>
             <a href="#blog" id="d2" >Blog</a>
-        </div>
-    <div class="row" style="padding-top:100px;">
+        </div> -->
+    <nav class="navbar navbar-expand-lg sticky-top" style="background-color:#f7e8d3;height:50px">
+      <a class="navbar-brand" href="#">  
+        <img src="https://i.pinimg.com/736x/8d/3b/b6/8d3bb614e97605ed45518a2156b342a9.jpg" width="50px" style="margin-left:20px"/>
+      </a>
+      <div class="container-fluid">
+        <ul class="navbar-nav ms-auto" style="padding-right:50px;">
+          <li class="nav-item">
+            <a class="nav-link" href="#home" style="padding-right:30px;font-weight: bold;">Section 1</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#blog" style="padding-right:30px;font-weight: bold;">Section 2</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#aboutus" style="padding-right:30px;font-weight: bold;">Section 3</a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="row" id="home" style="padding-top:100px;">
         <div class="col col-1"></div>
         <div class="col col-5">
             <h3 style="font-family: cursive;">Explore Animals</h3>
@@ -77,18 +86,20 @@
     </div>
     <div class="row" style="padding-top:100px;padding-bottom:100px">
         <div class="col col-1"></div>
-        <div class="col col-5">
+        <div class="col col-4">
             <img src="https://dailywildlifephoto.nathab.com/photography-guide/wp-content/uploads/2016/05/alaska-1.jpg" style="width:450px;height:300px;" class="rounded"/>
         </div>
+        <div class="col col-1"></div>
         <div class="col col-5">
             <h3 style="font-family: cursive;">Explore Travelling</h3>
             <p style="padding-top:10px;font-family:sans-serif"><span style="font-size:25px;color:green;">W</span>ildlife tourism is an element of many nations' travel industry centered around observation and interaction with local <span style="color:green;">animal and plant life</span> in their natural habitats. While it can include eco- and animal-friendly tourism, safari hunting and similar high-intervention activities also fall under the umbrella of wildlife tourism</p>
             <br>    
             <button class="btn btn-outline-dark" onclick="fun2()" style="font-weight: bold;">Explore more</button>
         </div>
+        <div class="col col-1"></div>
     </div>
     <!-- blogs -->
-    <div class="row" style="background-color: lightgreen">
+    <div class="row" id="blog" style="background-color: #5cdb95">
         <h3 style="color:white;padding-left: 50%;padding-top:20px">Blogs</h3>
         <div class="col col-1"></div>
         <div class="col col-10" >
@@ -146,7 +157,7 @@
         </div>
       </div>
     <!--Faq's  -->
-    <div class="row" id="blog" style="padding-top:100px;">
+    <div class="row" style="padding-top:100px;">
         <div class="col col-1"></div>
         <div class="col col-10">
             <h3 style="text-align: center;">FAQ's</h3>
