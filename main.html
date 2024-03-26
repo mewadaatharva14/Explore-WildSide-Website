@@ -1,0 +1,225 @@
+<html>
+<head>
+    <title >
+        PROJECT
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <style> 
+    a{
+        text-decoration:none;
+    } 
+    .fixed-top {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height:60px;
+      background-color: #f8f9fa; /* Change this to desired background color */
+      /* padding: 1px 0; Adjust padding as needed */
+      z-index: 999; /* Ensure it's above other content */
+    } 
+    #d
+    {
+        font-size:large;
+        padding-right:50px;
+        font-weight: bold;
+        color:black   
+    }
+    #d1
+    {
+        font-size:large;
+        padding-right:50px;
+        font-weight: bold;
+        color:black
+    }
+    #d2
+    {
+        font-size:large;
+        padding-right:50px;
+        font-weight: bold;
+        color:black
+    }
+    #d:hover
+    {
+        color:green;
+    }
+    #d1:hover
+    {
+        color:green;
+    }
+    #d2:hover
+    {
+        color:green;
+    }
+    </style>
+</head>
+<body>
+        <div class="fixed-top" style="background-color:#f7e8d3 " >
+            <a href="#home" style="padding-right:800px;"><img src="https://i.pinimg.com/736x/8d/3b/b6/8d3bb614e97605ed45518a2156b342a9.jpg" width="60px"/></a>
+            <a href="#home" id="d" >Home</a>
+            <a href="#aboutus" id="d1">About us</a>
+            <a href="#blog" id="d2" >Blog</a>
+        </div>
+    <div class="row" style="padding-top:100px;">
+        <div class="col col-1"></div>
+        <div class="col col-5">
+            <h3 style="font-family: cursive;">Explore Animals</h3>
+            <p style="padding-top:10px;font-family:sans-serif"><span style="font-size:25px;color:green;">W</span>ild animals play a valuable role in providing stability to natural processes. Apart from Forests, they are commonly found in various ecosystems like <span style="color:green;">Deserts and Plains</span>. Perhaps the most invaluable contribution of wild animals lies in the fact that they help maintain the Ecological Balance. Subsequently, they help maintain that all-important Food Chain</p>
+            <br>    
+            <button class="btn btn-outline-dark" onclick="fun()" style="font-weight: bold;">Explore more</button>
+        </div>
+        <div class="col col-1"></div>
+        <div class="col col-5">
+            <img src="https://images.unsplash.com/photo-1456926631375-92c8ce872def?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGFuaW1hbHxlbnwwfHwwfHx8MA%3D%3D" style="width:450px;height:300px;" class="rounded"/>
+        </div>
+    </div>
+    <div class="row" style="padding-top:100px;padding-bottom:100px">
+        <div class="col col-1"></div>
+        <div class="col col-5">
+            <img src="https://dailywildlifephoto.nathab.com/photography-guide/wp-content/uploads/2016/05/alaska-1.jpg" style="width:450px;height:300px;" class="rounded"/>
+        </div>
+        <div class="col col-5">
+            <h3 style="font-family: cursive;">Explore Travelling</h3>
+            <p style="padding-top:10px;font-family:sans-serif"><span style="font-size:25px;color:green;">W</span>ildlife tourism is an element of many nations' travel industry centered around observation and interaction with local <span style="color:green;">animal and plant life</span> in their natural habitats. While it can include eco- and animal-friendly tourism, safari hunting and similar high-intervention activities also fall under the umbrella of wildlife tourism</p>
+            <br>    
+            <button class="btn btn-outline-dark" onclick="fun2()" style="font-weight: bold;">Explore more</button>
+        </div>
+    </div>
+    <!-- blogs -->
+    <div class="row" style="background-color: lightgreen">
+        <h3 style="color:white;padding-left: 50%;padding-top:20px">Blogs</h3>
+        <div class="col col-1"></div>
+        <div class="col col-10" >
+          <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to ="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to ="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to ="2"></button>
+            </div> -->
+            <div class="carousel-inner" style="padding-top:40px;padding-bottom:50px">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col col-1"></div>
+                  <div class="col col-5">
+                    <img src="https://png.pngtree.com/thumb_back/fh260/background/20231003/pngtree-exploring-the-globe-from-above-a-3d-illustration-of-plane-travel-image_13510753.png" width="400px"/>
+                  </div>
+                  <div class="col col-5" style="font-family: cursive;color:#05386B">
+                    <p style="color:#05386B">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem soluta quam ullam optio asperiores commodi delectus. Amet at reprehenderit impedit officiis soluta labore vero incidunt pariatur! Inventore dolorum corporis ea est, qui dolores deserunt beatae natus eos delectus nemo tempore dolorem dignissimos. Amet fuga cumque laborum cupiditate reprehenderit quaerat, id commodi provident</p>
+                  </div>
+                  <div class="col col-1"></div>
+                </div>
+              </div>
+              <div class="carousel-item ">
+                <div class="row">
+                  <div class="col col-1"></div>
+                  <div class="col col-5">
+                    <img src="https://png.pngtree.com/thumb_back/fh260/background/20231003/pngtree-exploring-the-globe-from-above-a-3d-illustration-of-plane-travel-image_13510753.png" width="400px"/>
+                  </div>
+                  <div class="col col-5" style="color:white">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem soluta quam ullam optio asperiores commodi delectus. Amet at reprehenderit impedit officiis soluta labore vero incidunt pariatur! Inventore dolorum corporis ea est, qui dolores deserunt beatae natus eos delectus nemo tempore dolorem dignissimos. Amet fuga cumque laborum cupiditate reprehenderit quaerat, id commodi provident</p>
+                  </div>
+                  <div class="col col-1"></div>
+                </div>
+              </div>
+              <div class="carousel-item ">
+                <div class="row">
+                  <div class="col col-1"></div>
+                  <div class="col col-5">
+                    <img src="https://png.pngtree.com/thumb_back/fh260/background/20231003/pngtree-exploring-the-globe-from-above-a-3d-illustration-of-plane-travel-image_13510753.png" width="400px"/>
+                  </div>
+                  <div class="col col-5" style="color:white">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem soluta quam ullam optio asperiores commodi delectus. Amet at reprehenderit impedit officiis soluta labore vero incidunt pariatur! Inventore dolorum corporis ea est, qui dolores deserunt beatae natus eos delectus nemo tempore dolorem dignissimos. Amet fuga cumque laborum cupiditate reprehenderit quaerat, id commodi provident</p>
+                  </div>
+                  <div class="col col-1"></div>
+                </div>
+              </div>
+            </div>
+            <button type="button" class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button type="button" class="carousel-control-next" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    <!--Faq's  -->
+    <div class="row" id="blog" style="padding-top:100px;">
+        <div class="col col-1"></div>
+        <div class="col col-10">
+            <h3 style="text-align: center;">FAQ's</h3>
+            <hr>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Can an elephant liv upto 100 years?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body" style="background-color:#f7e8d3 " >Elephants, humans and whales share a lifespan of 70–100+ years, making them rare among mammals.19</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Octopuses have three hearts
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body" style="background-color:#f7e8d3 " >An octopus has 3 hearts. You can hypnotize a frog—just place it on its back and gently stroke its stomach!</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Polar bear skin is black
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body" style="background-color:#f7e8d3 " >"It places the dolphin's right side and right eye close to the ocean floor as it hunts." 12. Polar bears have black skin. polar bear against a black background.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    </div>
+    <div id="aboutus" class="row" id="blog" style="padding-top:50px;background-color:black">
+        <div class="col col-1"></div>
+        <div class="col col-3">
+            <img src="icon.png" width="50px" style="margin-left:90px">
+            <p style="color:white;font-size: 15;font-family:cursive;padding-top: 10px;"><strong style="color:white;font-size: 15;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Note :</strong>This is a Registered Private Travel Agency which organizes Tour Packages & Safari Packages.</p>
+        </div>
+        <div class="col col-1"></div>
+        <div class="col col-3">
+            <p style="color:white;font-size:18px">Contact us</p>
+            <ul style="color:white">
+                <li>9409295587</li>
+                <li>8209676745</li>
+            </ul>
+        </div>
+        <div class="col col-1"></div>
+        <div class="col col-3">
+            <p style="color:white;font-size:18px">Resourse</p>
+            <ul style="color:white">
+                <li>NewsLetters</li>
+                <li>Brochures</li>
+                <li>Videos</li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function fun()
+        {
+            window.open("animal.html")
+        }
+        function fun2()
+        {
+            window.open('travel.html')
+        }
+    </script>
+</body>
+</html>
+
