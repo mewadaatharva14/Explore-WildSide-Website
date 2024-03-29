@@ -1,0 +1,221 @@
+.modal1
+{
+    display:none;
+    position: fixed;
+    z-index: 1; 
+    left: 50;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow:auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.modal-content1
+{
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding:20px;
+    border:1px solid #888;
+    width:600px;
+    height:850px;
+}
+.close1
+{
+    color:#aaa;
+    float:right;
+    font-size:28px;
+    font-weight: bold;
+
+}
+.close1:hover
+{
+    color:black;
+    cursor:pointer;
+}
+/* seconds */
+.modal2
+{
+    display:none;
+    position: fixed;
+    z-index: 1; 
+    left: 50;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow:auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.modal-content2
+{
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding:20px;
+    border:1px solid #888;
+    width:600px;
+    height:950px;
+}
+.close2
+{
+    color:#aaa;
+    float:right;
+    font-size:28px;
+    font-weight: bold;
+
+}
+.close2:hover
+{
+    color:black;
+    cursor:pointer;
+}
+/* third */
+.modal3
+{
+    display:none;
+    position: fixed;
+    z-index: 1; 
+    left: 50;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow:auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.modal-content3
+{
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding:20px;
+    border:1px solid #888;
+    width:600px;
+    height:1100px;
+}
+.close3
+{
+    color:#aaa;
+    float:right;
+    font-size:28px;
+    font-weight: bold;
+
+}
+.close3:hover
+{
+    color:black;
+    cursor:pointer;
+}
+/* forth */
+.modal4
+{
+    display:none;
+    position: fixed;
+    z-index: 1; 
+    left: 50;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow:auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.modal-content4
+{
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding:20px;
+    border:1px solid #888;
+    width:600px;
+    height:900px;
+}
+.close4
+{
+    color:#aaa;
+    float:right;
+    font-size:28px;
+    font-weight: bold;
+
+}
+.close4:hover
+{
+    color:black;
+    cursor:pointer;
+}
+/* fifth */
+.modal5
+{
+    display:none;
+    position: fixed;
+    z-index: 1; 
+    left: 50;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow:auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.modal-content5
+{
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding:20px;
+    border:1px solid #888;
+    width:600px;
+    height:1150px;
+}
+.close5
+{
+    color:#aaa;
+    float:right;
+    font-size:28px;
+    font-weight: bold;
+
+}
+.close5:hover
+{
+    color:black;
+    cursor:pointer;
+}
+/* sixth */
+.modal6
+{
+    display:none;
+    position: fixed;
+    z-index: 1; 
+    left: 50;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow:auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.modal-content6
+{
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding:20px;
+    border:1px solid #888;
+    width:600px;
+    height:1100px;
+}
+.close6
+{
+    color:#aaa;
+    float:right;
+    font-size:28px;
+    font-weight: bold;
+
+}
+.close6:hover
+{
+    color:black;
+    cursor:pointer;
+}
+@media(max-width:414)
+{
+    *{
+        overflow:auto;
+    }
+}
